@@ -478,7 +478,7 @@ async function showResult() {
     const table = document.createElement("table");
     table.setAttribute(
       "class",
-      "table table-striped table-bordered table-responsive "
+      "table table-striped table-bordered"
     );
     table.innerHTML = `
         <thead class="table-dark">

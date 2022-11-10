@@ -55,6 +55,7 @@ body{
     height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 3rem auto 3rem auto
 }
 
