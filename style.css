@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 400ms ease;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.div__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.div__container>h1{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.div__container>h4{
+    margin-bottom: 1rem;
+}
+
+.select__country, .select__year, .select__month, .select__day{
+    width: 100%;
+    min-width: 5rem;
+    height: 6vh;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.select__label{
+    font-size: 1.4em;
+}
+
+.div__selects{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.div__result{
+    width: 80%;
+    min-width: 30rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 3rem auto 3rem auto
+}
+
+.div__result>h2{
+    font-size: 2em;
+}
+
+.error{
+    color: red;
+    font-size: 0.7em;
+}
